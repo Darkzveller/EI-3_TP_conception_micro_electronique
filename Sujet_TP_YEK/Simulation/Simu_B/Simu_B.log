@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: H:\Mon Drive\2025-2026_polytech_sorbonne\S6\UE-Electronique\Composants_et_circuit_microelectrique\TP\Sujet_TP_YEK\Simulation\Simu_B\Simu_B.net
-Start Time: Tue Mar 17 22:22:13 2026
+Start Time: Thu Mar 19 09:34:01 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -8,7 +8,7 @@ temp = 27
 method = trap
 .OP point found by inspection.
 .OP point found by inspection.
-Total elapsed time: 0.683 seconds.
+Total elapsed time: 0.493 seconds.
 
 Files loaded:
 H:\Mon Drive\2025-2026_polytech_sorbonne\S6\UE-Electronique\Composants_et_circuit_microelectrique\TP\Sujet_TP_YEK\Simulation\Simu_B\Simu_B.net
