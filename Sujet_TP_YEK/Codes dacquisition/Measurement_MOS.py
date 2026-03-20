@@ -63,8 +63,8 @@ class IV_Characteristic(mp.Process):
         # ipaddr_1 = "TCPIP0::169.254.191.190::inst0::INSTR" #SMU1 (Gate)
         # ipaddr_2 = "TCPIP0::169.254.22.41::inst0::INSTR" #SMU2 (Drain)
 
-        ipaddr_1 = "TCPIP0::134.157.105.90::inst0::INSTR" #SMU1 (Gate)
-        ipaddr_2 = "TCPIP0::134.157.105.94::inst0::INSTR" #SMU2 (Drain)
+        ipaddr_1 = "TCPIP0::134.157.105.92::inst0::INSTR" #SMU1 (Gate)
+        ipaddr_2 = "TCPIP0::134.157.105.93::inst0::INSTR" #SMU2 (Drain)
         
         self.sourcemeter_1 = Keithley2450(ipaddr_1)
         self.sourcemeter_2 = Keithley2450(ipaddr_2)
