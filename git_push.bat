@@ -1,2 +1,2 @@
 echo off
-git status && git add . && git commit -m "ajout donnees csv" && git push
+git status && git add . && git commit -m "ajout meusres partie C" && git push

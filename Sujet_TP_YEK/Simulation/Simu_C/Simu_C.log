@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: H:\Mon Drive\2025-2026_polytech_sorbonne\S6\UE-Electronique\Composants_et_circuit_microelectrique\TP\Sujet_TP_YEK\Simulation\Simu_C\Simu_C.net
-Start Time: Thu Mar 19 20:23:00 2026
+Start Time: Sun Mar 22 16:53:16 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -8,7 +8,7 @@ temp = 27
 method = trap
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
-Total elapsed time: 0.509 seconds.
+Total elapsed time: 0.530 seconds.
 
 Files loaded:
 H:\Mon Drive\2025-2026_polytech_sorbonne\S6\UE-Electronique\Composants_et_circuit_microelectrique\TP\Sujet_TP_YEK\Simulation\Simu_C\Simu_C.net
