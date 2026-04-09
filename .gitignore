@@ -1,0 +1,2 @@
+#Ne prends pas en compte les fichiers gsheet
+*.gsheet
