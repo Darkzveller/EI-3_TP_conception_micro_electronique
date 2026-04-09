@@ -1,0 +1,23 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\sulla\Desktop\Sullayman Projets\Projet Polytech 24 03 2025\S6\Tp Analogique\Sujet TP et fichiers-20250226\F1b.net
+Start Time: Wed May  7 03:08:39 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+C:\Users\sulla\Desktop\Sullayman Projets\Projet Polytech 24 03 2025\S6\Tp Analogique\Sujet TP et fichiers-20250226\F1b.net(24): BJT model ca3046, parameter Fc limited to 0.9999.
++ MJC = 0.333E - 00 VJC = 0.7500E - 00 FC = 5.000E - 01 CJE = 1.02E - 12
+                                           ^^^^^^^^^^^^
+Direct Newton iteration for .op point succeeded.
+Warning: Simulation tolerance relaxed to achieve convergence from 2.3246965948328817e-09 
+Convergence Failure:  Time step too small; time = 2.3247e-09, timestep = 1.25e-19: trouble with node "vsig#branch"
+
+Simulation Failed: Iteration limit reached
+
+Total elapsed time: 0.040 seconds.
+
+Files loaded:
+C:\Users\sulla\Desktop\Sullayman Projets\Projet Polytech 24 03 2025\S6\Tp Analogique\Sujet TP et fichiers-20250226\F1b.net
+C:\Users\sulla\AppData\Local\LTspice\lib\cmp\standard.bjt
+

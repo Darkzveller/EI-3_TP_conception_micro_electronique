@@ -1,0 +1,16 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\sulla\Desktop\Sullayman Projets\Projet Polytech 24 03 2025\S6\Tp Analogique\Sujet TP et fichiers-20250226\C1_MOS.net
+Start Time: Wed May  7 01:34:48 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Instance "M1": Length shorter than recommended for a level 1 MOSFET.
+.step 
+Total elapsed time: 0.057 seconds.
+
+Files loaded:
+C:\Users\sulla\Desktop\Sullayman Projets\Projet Polytech 24 03 2025\S6\Tp Analogique\Sujet TP et fichiers-20250226\C1_MOS.net
+C:\Users\sulla\AppData\Local\LTspice\lib\cmp\standard.mos
+

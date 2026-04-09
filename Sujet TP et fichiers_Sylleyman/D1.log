@@ -1,0 +1,15 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\sulla\Desktop\Sullayman Projets\Projet Polytech 24 03 2025\S6\Tp Analogique\Sujet TP et fichiers-20250226\D1.net
+Start Time: Wed May  7 02:09:12 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+.step 
+Total elapsed time: 0.026 seconds.
+
+Files loaded:
+C:\Users\sulla\Desktop\Sullayman Projets\Projet Polytech 24 03 2025\S6\Tp Analogique\Sujet TP et fichiers-20250226\D1.net
+C:\Users\sulla\AppData\Local\LTspice\lib\cmp\standard.bjt
+
