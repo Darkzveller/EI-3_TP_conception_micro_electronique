@@ -1,0 +1,12 @@
+Insertion forcé d'une image :![test](./PNG_circuits/lab43_circuits_diodes.png)
+
+
+Code html propre: 
+<img src="./PNG_circuits/lab43_circuits_diodes.png"
+     width="500"
+     style="display:block; margin:auto;">
+<p style="text-align:center"><strong>Fig. 2</strong>: circuits à diodes</p>
+
+
+<img src="./PNG_circuits/lab41_diode.png" width="500" style="display:block; margin:auto;">
+<p style="text-align:center"><strong>Fig. 1</strong>: diode</p>

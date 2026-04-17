@@ -1,0 +1,14 @@
+LTspice 26.0.1 for Windows
+Circuit: H:\Mon Drive\2025-2026_polytech_sorbonne\S6\UE-Electronique\Composants_et_circuit_microelectrique\TP_conception_micro_electronique\Sujet_TP_YEK\Simulation\Simu_C_bonus\Simu_C_bonus.net
+Start Time: Thu Apr 16 14:22:39 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+Total elapsed time: 0.404 seconds.
+
+Files loaded:
+H:\Mon Drive\2025-2026_polytech_sorbonne\S6\UE-Electronique\Composants_et_circuit_microelectrique\TP_conception_micro_electronique\Sujet_TP_YEK\Simulation\Simu_C_bonus\Simu_C_bonus.net
+C:\Users\elkat\AppData\Local\LTspice\lib\cmp\standard.mos
+
