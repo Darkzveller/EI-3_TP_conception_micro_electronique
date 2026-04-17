@@ -1,2 +1,2 @@
 echo off
-git status && git add . && git commit -m "Modif nom dosier 'Bjt_fait_par_moi' opur Bjt + ajout mesures fait au compte rendu" && git push
+git status && git add . && git commit -m "Mise au propre de la réponse de la question C1" && git push
