@@ -23,7 +23,9 @@ class CreateFile():
 
     def createfile(self):
         date = datetime.now().date()                                        # Assign today's date into date.
-        PARENT_DIR = "D:/Sorbonne University 2009 - present/2024 - 2025/ANA2/SMU codes/MOS_IV_v6/{}/".format(date)   # Get the path. #!!!!CHANGE DIRECTORY!!!!#
+        # PARENT_DIR = "D:/Sorbonne University 2009 - present/2024 - 2025/ANA2/SMU codes/MOS_IV_v6/{}/".format(date)   # Get the path. #!!!!CHANGE DIRECTORY!!!!#
+        PARENT_DIR = "E:/Sujet_TP_YEK/{}/".format(date)   # Get the path. #!!!!CHANGE DIRECTORY!!!!#
+
         DIR = '{}'.format(self.procedure)                                   # Get procedure name.
         self.PATH = os.path.join(PARENT_DIR, DIR)                           # Form a full path.
         try:
@@ -63,8 +65,8 @@ class IV_Characteristic(mp.Process):
         # ipaddr_1 = "TCPIP0::169.254.191.190::inst0::INSTR" #SMU1 (Gate)
         # ipaddr_2 = "TCPIP0::169.254.22.41::inst0::INSTR" #SMU2 (Drain)
 
-        ipaddr_1 = "TCPIP0::134.157.105.92::inst0::INSTR" #SMU1 (Gate)
-        ipaddr_2 = "TCPIP0::134.157.105.93::inst0::INSTR" #SMU2 (Drain)
+        ipaddr_1 = "TCPIP0::134.157.105.89::inst0::INSTR" #SMU1 (Gate)
+        ipaddr_2 = "TCPIP0::134.157.105.94::inst0::INSTR" #SMU2 (Drain)
         
         self.sourcemeter_1 = Keithley2450(ipaddr_1)
         self.sourcemeter_2 = Keithley2450(ipaddr_2)
@@ -214,9 +216,9 @@ if __name__ == "__main__":
     colormap = cm.get_cmap("viridis")
 
     # Choose the measurement type
-    # measurement_type = "IdVg"  # Change to "IdVd" for IdVd measurement,
+    measurement_type = "IdVg"  # Change to "IdVd" for IdVd measurement,
                                #           "IdVg" for IdVg measurement.
-    measurement_type = "IdVd"  # Change to "IdVd" for IdVd measurement,
+    # measurement_type = "IdVd"  # Change to "IdVd" for IdVd measurement,
 
 
     # Start the measurement process

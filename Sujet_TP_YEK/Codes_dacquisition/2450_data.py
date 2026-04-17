@@ -13,15 +13,15 @@ from matplotlib.animation import FuncAnimation
 # plt.style.use('fivethirtyeight')
 
 # Set the input parameters
-data_points = 30
+data_points = 40
 max_voltage = 3
-min_voltage = -0.1
+min_voltage = -1.0
 
 # Connect and configure the instrument
 # ipaddr = "TCPIP0::169.254.144.151::inst0::INSTR" #SMU1
 # ipaddr = "TCPIP0::169.254.159.59::inst0::INSTR" #SMU2
 
-ipaddr = "TCPIP0::134.157.105.90::inst0::INSTR"
+ipaddr = "TCPIP0::134.157.105.89::inst0::INSTR"
 # ipaddr = "TCPIP0::134.157.105.94::inst0::INSTR"
 
 sourcemeter = Keithley2450(ipaddr)  
