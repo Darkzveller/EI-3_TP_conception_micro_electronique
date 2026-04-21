@@ -1,2 +1,2 @@
 echo off
-git status && git add . && git commit -m "Les images fonctionnait" && git push
+git status && git add . && git commit -m "Ajout commentaire PMOS" && git push
