@@ -1,2 +1,2 @@
 echo off
-git status && git add . && git commit -m "Test affichageV9" && git push
+git status && git add . && git commit -m "Les images fonctionnait" && git push
