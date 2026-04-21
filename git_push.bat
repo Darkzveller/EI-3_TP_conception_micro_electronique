@@ -1,2 +1,2 @@
 echo off
-git status && git add . && git commit -m "Ajout photo mesure grand E" && git push
+git status && git add . && git commit -m "Mise au propre en cours" && git push
